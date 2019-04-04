@@ -1,0 +1,1 @@
+g++ -o loader -I/cvmfs/sft.cern.ch/lcg/releases/LCG_95/tensorflow/1.12.0/x86_64-centos7-gcc8-opt/lib/python2.7/site-packages/tensorflow/include/ -L/cvmfs/sft.cern.ch/lcg/releases/LCG_95/tensorflow/1.12.0/x86_64-centos7-gcc8-opt/lib/python2.7/site-packages/tensorflow -ltensorflow_framework -std=c++11 -D_GLIBCXX_USE_CXX11_ABI=0 loader.cxx
